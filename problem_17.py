@@ -108,6 +108,12 @@ def main():
     total += ((7 * 100) * 9)  # once for each of 100-999
 
 
+    # COUNT INSTANCES OF "AND"
+
+    # for each instance found, add another 3 characters
+    total += ((3 * 100) * 9)  # once for each of 100-999
+
+
     # COUNT INSTANCE OF "THOUSAND"
 
     # add 8 characters for the one use of "thousand"
