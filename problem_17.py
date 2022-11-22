@@ -82,8 +82,8 @@ def main():
     # for each 30 found, add another 6 characters
     ((6 * 10) * 10)  # once for each set of 30-39 in each set of 100
 
-    # for each 40 found, add another 6 characters
-    ((6 * 10) * 10)  # once for each set of 40-49 in each set of 100
+    # for each 40 found, add another 5 characters
+    ((5 * 10) * 10)  # once for each set of 40-49 in each set of 100
 
     # for each 50 found, add another 5 characters
     ((5 * 10) * 10)  # once for each set of 50-59 in each set of 100
@@ -110,7 +110,7 @@ def main():
     # COUNT INSTANCE OF "THOUSAND"
 
     # add 8 characters for the one use of "thousand"
-    # += 8
+    (8 * 1)
 
     print("Stubbed main")
 
