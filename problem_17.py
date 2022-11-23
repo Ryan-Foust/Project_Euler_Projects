@@ -42,7 +42,7 @@ def main():
     total += (4 * 100)  # once for each number that starts with "nine hundred" (900-999)
 
 
-    # COUNT INSTANCES OF 10-19
+    # COUNT INSTANCES OF 10-19 (CLEARED)
 
     # for each 10 found, add another 3 characters
     total += (3 * 10)  # once for each set of 100
@@ -75,7 +75,7 @@ def main():
     total += (8 * 10)  # once for each set of 100
 
 
-    # COUNT INSTANCES OF MULTIPLES OF 10 (20, 30, 40, 50, 60, 70, 80, 90)
+    # COUNT INSTANCES OF MULTIPLES OF 10 (20, 30, 40, 50, 60, 70, 80, 90) (CLEARED)
 
     # for each 20 found, add another 6 characters
     total += ((6 * 10) * 10)  # once for each set of 20-29 in each set of 100
@@ -102,19 +102,19 @@ def main():
     total += ((6 * 10) * 10)  # once for each set of 90-99 in each set of 100
 
 
-    # COUNT INSTANCES OF "HUNDRED"
+    # COUNT INSTANCES OF "HUNDRED" (CLEARED)
 
     # for each instance found, add another 7 characters
-    total += ((7 * 100) * 9)  # once for each of 100-999
+    total += (7 * 900)  # once for each of 100-999
 
 
-    # COUNT INSTANCES OF "AND"
+    # COUNT INSTANCES OF "AND" (CLEARED)
 
     # for each instance found, add another 3 characters
-    total += ((3 * 100) * 9)  # once for each of 100-999
+    total += (3 * 891)  # once for each of 100-999 (except for multiples of 100)
 
 
-    # COUNT INSTANCE OF "THOUSAND"
+    # COUNT INSTANCE OF "THOUSAND" (CLEARED)
 
     # add 8 characters for the one use of "thousand"
     total += (8 * 1)
